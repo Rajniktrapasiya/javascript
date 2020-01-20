@@ -1,0 +1,45 @@
+html {
+    width: device-width, initial-scale=1.0;
+    height: 1080px ;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.main{
+    width: (device-width)-50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 215px;
+    height: 290px;
+    margin: 8px;
+}
+
+.mid{
+    height: 130px;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.imgCenter{
+    border-radius: 50%; 
+    height: 60px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}

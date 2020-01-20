@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="twoform.css">
+        <script src="twoform.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="first">
+                <form name="form1">
+                    <table align="center">
+                        <tr>
+                            <th colspan="2" class="tableTital">Login Page</th>
+                        </tr>
+                        <tr>
+                            <td>Enter Email Id:</td>
+                            <td>
+                                <input type="email" name="email1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Enter Your PassWord:</td>
+                            <td>
+                                <input type="password" name="pwd">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="Submit" onclick="formone()"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="second">
+                <form name="form2">
+                    <table align="center">
+                        <tr>
+                            <th colspan="2" class="tableTital">Registation Page</th>
+                        </tr>
+                        <tr>
+                            <td>Enter Your First Name</td>
+                            <td>
+                                <input type="text" name="firstname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Enter Your Last Name:</td>
+                            <td>
+                                <input type="text" name="lastname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Enter Your Email:</td>
+                            <td>
+                                <input type="email" name="email2">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Enter Your Phone No.:</td>
+                            <td>
+                                <input type="number" name="phone">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Enter Your PassWord.:</td>
+                            <td>
+                                <input type="password" name="pwd2">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" onclick="formsecond()" value="Submit"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div id="Result">
+
+        </div>
+        </div>
+    </body>
+</html>

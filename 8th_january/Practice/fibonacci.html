@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <style>
+        .container{
+            display: flex;
+            align-items: center;
+        }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Fibonacci Series:-</h1>
+            <input type="button" value="submite" onclick="fibonacci()">
+        </div>
+        <script>
+            var num = prompt("Enter Value");
+            var result = new Array();
+            function fibonacci()
+            {
+                var num1 = 1; 
+                var num2 = 0;  
+                var num3 ;
+                for(var i=0;i<num;i++)
+                {
+                    
+                    num3= num1 + num2 ;
+                    result.push(num3);
+                    num1 = num2;
+                    num2= num3;
+                }
+                console.log(result);
+                document.write(result);
+            }    
+        </script>
+    </body>
+</html>

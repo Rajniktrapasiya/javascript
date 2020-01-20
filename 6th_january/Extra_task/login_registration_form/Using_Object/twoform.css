@@ -1,0 +1,23 @@
+.first{
+    width: 50%;
+    height: 500px;
+}
+.tableTital{
+    height: 50px;
+}
+.second{
+    width: 50%;
+    height: 500px;
+}
+.main{
+    display: flex;
+}
+table{
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 200px;
+    margin-bottom: auto;
+}
+#Result{
+    font-family: 'Courier New', Courier, monospace;
+}

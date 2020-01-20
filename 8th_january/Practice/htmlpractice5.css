@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    height: 800px;
+}
+
+table {
+    border: 1px solid black;
+}
+td,th{
+    vertical-align: top;
+}
+th{
+    background-color: rgb(151, 228, 181);
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.firstcol{
+    width: 150px;
+    background-color: rgb(138, 221, 221);
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}.secondcol{
+    width: 240px;
+    background-color: rgb(253, 246, 221);
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.thirdcol{
+    width: 130px;
+    background-color: rgb(240, 191, 200);
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.forthcol{
+    width: 200px;
+    background-color: rgb(245, 237, 131);
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,15 @@
+html {
+    width: device-width, initial-scale=1.0;
+    height: 1080px ;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+table,td,th{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+

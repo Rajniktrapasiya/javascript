@@ -1,0 +1,16 @@
+html {
+    box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.2);
+    width: device-width, initial-scale=1.0;
+    height: 1200px ;
+    margin: 50px;
+}
+
+label{
+    font-family: cursive;
+}
+.header1{
+    background-color: #ccc;
+  font-size: 25px;
+  padding: 1px 5px;
+  border: 1px solid #ccc;
+}
